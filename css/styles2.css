@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Tilt+Neon&family=Tilt+Prism&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CD5C5C;
+  background-color: #E9967A;
+}
+
+header {
+  background-color: #F08080;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Tilt Neon', sans-serif;
+  color: darkgray;
+  background-color: #CD5C5C;
+}
+
+h2 {
+  font-family: 'Tilt Prism', sans-serif;
+  font size: 4rem;
+}
+
+.maintext {
+  background-color: #FFA07A;
+  float: center;
+  padding: 10px;
+  font-family: 'Noto Serif', serif;
+  font-weight: 100;
+  font size: 1rem;
+  max-width: 100%;
+  min-width: 30%;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+.nav1 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #mediumblue;
+  display: flex-around;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'Noto Serif', serif;
+}
+
+
+a {
+  text-decoration: inherit;
+  list-style: inherit;
+  color: #whitesmoke;
+}
+
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+img {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+.maintext {
+  display: flex;
+    justify-content: center; 
+      align-items: center;
+      flex-direction: column; 
+        background: #DEDEDE;
+        border-radius: 1em;
+        padding: 1em;
+        max-width: 800px;
+}
+
+.joke {
+  font-family: 'Tilt Neon', sans-serif;
+  width: 90%;
+  background-color: #CD5C5C;
+  padding: 24px;
+}
+
+.list {
+  font-family: font-family: 'Tilt Prism', sans-serif;
+}
+
+footer {
+  background-color: #F08080;
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
